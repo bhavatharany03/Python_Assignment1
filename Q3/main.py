@@ -4,9 +4,9 @@ if __name__ == "__main__":
     ems = EmployeeManagementSystem()
 
     # Adding Employees
-    ems.add_employee("Ruthra", "ruthra@example.com", "Software Engineer", 60000)
-    ems.add_employee("Rutrhavarshan", "ruthravarshan.s@example.com", "security analyst", 75000)
-    ems.add_employee("Varshan", "varshan@gmail.com", "Data Scientist",90000)
+    ems.add_employee("Kanna", "kanna@example.com", "Software Engineer", 60000)
+    ems.add_employee("dev", "devs@example.com", "security analyst", 75000)
+    ems.add_employee("sona", "sona@gmail.com", "Data Scientist",90000)
 
     # Updating Employee Information
     ems.update_employee("1", job_title="Senior Software Engineer", base_salary=70000)
