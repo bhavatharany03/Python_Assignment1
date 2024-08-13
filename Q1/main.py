@@ -12,13 +12,12 @@ if __name__ == "__main__":
     library.add_book("Parthiban Kanavu", "Kalki")
 
     # Registering Users
-    library.register_user("Ruthra")
-    library.register_user("Ruthravarshan")
-    library.register_user("Varshan")
+    library.register_user("Parkavi")
+    library.register_user("Shraddha")
+    library.register_user("Kanna")
 
     # Borrowing Books
-    library.borrow_book("1", "1")  # Rutrha borrows "Tolkāppiyam"
-    library.borrow_book("2", "2")  # Ruthravarshan borrows "Cilappatikaram"
-
+    library.borrow_book("1", "1")  
+    library.borrow_book("2", "2")  
     # Returning Books
-    library.return_book("1", "1")  # Rutrha returns "Tolkāppiyam"
+    library.return_book("1", "1")  
